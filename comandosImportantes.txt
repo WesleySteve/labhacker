@@ -1,0 +1,37 @@
+df.head()-> visualiza 5 primeiras linhas por padrão  
+  podems passar um numero qualquer dentro dos () e ele irá retornar essa quantidade de linhas
+
+
+df.sample() -> visualiza 5 linhas aleatórias por padrão
+  podems passar um numero qualquer dentro dos () e ele irá retornar essa quantidade de linhas
+
+df.tall() -> visualiza 5 ultimas linhas por padrão
+   podems passar um numero qualquer dentro dos () e ele irá retornar essa quantidade de linhas
+
+
+--------------------------------------------------------------------------------------------
+
+sempre q criar um df novo com base no df principal
+  podemos resetar o index do novo df
+    para o mesmo começar a contar do index 0 por padrão
+
+
+# seleciona a coluna "procedimento" e utiliza str (string).contains (verifica se contem).count() (conta a qtde de linhas)
+df_hp[df_hp["Procedimento"].str.contains("amputa")].count()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
